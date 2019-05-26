@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
 #main-container {
   height: 832px;
   width: 1000px;
@@ -32,7 +37,7 @@ header div {
   float: right;
 
   /* DEBUG */
-  background: teal;
+  /* background: teal; */
   /* opacity: 0.5; */
 }
 
@@ -40,18 +45,38 @@ header div {
 #text-above-search-bar {
   height: 28px;
 
+  display: inline-block;
+  font-family: sans-serif;
+  color: white;
+  font-size: 14px;
+
   /* DEBUG */
-  background: red;
+  /* background: red; */
   /* opacity: 0.5; */
+
+
+}
+
+#text-above-search-bar span {
+  padding-top: 9px;
+  padding-left: 112px;
+
+  /* NEEDED TO APPLY PADDING-TOP!!! */
+  display: inline-block;
+}
+
+#text-above-search-bar a {
+  color: yellow;
 }
 
 /* search-bar (form) */
 #search-bar {
   height: 40px;
 
-  padding-top: 10px;
+  padding-top: 7px;
+  padding-left: 55px;
 
-  text-align: center;
+  /* text-align: center; */
 
   /* DEBUG */
   /* background: yellow; */
@@ -60,6 +85,8 @@ header div {
 
 /* search-bar field */
 #search-field {
+  height: 35px;
+  width: 161px;
   text-align: center;
   color: silver;
   border: silver 1px;
@@ -72,6 +99,9 @@ header div {
   border: 1px silver;
   border-style: inset;
   color: white;
+
+  height: 33px;
+  width: 45px;
 
 }
 /* -------------------------------------------------------------------------- */
