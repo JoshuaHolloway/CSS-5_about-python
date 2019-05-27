@@ -8,10 +8,10 @@
   width: 1000px;
 
   /* DEBUG */
-  background: red;
+  /* background: red;
   background-image: url('python-BSD.png');
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 /* -------------------------------------------------------------------------- */
 /* top-most row */
@@ -105,32 +105,49 @@ header div {
 
 }
 /* -------------------------------------------------------------------------- */
-/* second row */
+/* second row - navication bar*/
 nav {
   height: 70px;
 
   /* DEBUG */
-  background: yellow;
-  opacity: 0.5;
+  /* background: yellow;
+  opacity: 0.5; */
 
   /* TODO */
   /* padding: 0px; */
 
     display: block-inline;
 
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 3px;
+
+}
+
+#nav-bar {
+  background: blue;
+  height: 28px;
+  width: 878px;
+
+  margin-left: 84px;
+
+  padding-top:    10px;
+  padding-bottom: 10px;
+
+  border-radius: 6px;
+
+  /* DEBUG */
+  /* opacity: 0.5; */
 }
 
 /* links in nav-bar */
+#nav-bar a:nth-of-type(1) { margin-left: 56px; } /* 1st-link */
+#nav-bar a:nth-of-type(2) { margin-left: 42px; }
+#nav-bar a:nth-of-type(3) { margin-left: 42px; }
+#nav-bar a:nth-of-type(4) { margin-left: 42px; }
+#nav-bar a:nth-of-type(5) { margin-left: 42px; }
+#nav-bar a:nth-of-type(6) { margin-left: 42px; }
 
-nav a:nth-of-type(1) { margin-left: 139px; } /* 1st-link */
-nav a:nth-of-type(2) { margin-left: 42px; }  /* All links after 1st */
-nav a:nth-of-type(3) { margin-left: 42px; }
-nav a:nth-of-type(4) { margin-left: 42px; }
-nav a:nth-of-type(5) { margin-left: 42px; }
-nav a:nth-of-type(6) { margin-left: 42px; }
-
-nav a {
+#nav-bar a {
   /* remove underlines */
   text-decoration: none;
   font-family: sans-serif;
@@ -146,8 +163,8 @@ nav a {
   margin-left: 0px;
 
   /* DEBUG */
-  background: red;
-  opacity: 0.5;
+  /* background: red;
+  opacity: 0.5; */
 
   display: block-inline;
 }
