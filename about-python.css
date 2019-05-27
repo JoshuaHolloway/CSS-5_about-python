@@ -8,10 +8,10 @@
   width: 1000px;
 
   /* DEBUG */
-  /* background: red;
+  /* background: red; */
   background-image: url('python-BSD.png');
   background-size: contain;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 /* -------------------------------------------------------------------------- */
 /* top-most row */
@@ -174,7 +174,7 @@ main {
   height: 305px;
 
   /* DEBUG */
-  background: red;
+  /* background: red; */
   /* opacity: 0.5; */
 }
 
@@ -184,14 +184,30 @@ main {
 
   /* DEBUG */
   background: blue;
-  /* opacity: 0.5; */
+  opacity: 0.7;
 
   display: inline-block;
   vertical-align: top;
+
+  padding-top: 21px;
+  padding-left: 39px;
 }
 
 #main__left-box__bullets {
-  list-style-type: disc;
+  list-style: none;
+  text-align: center;
+}
+
+#main__left-box__bullets li {
+
+  /* center-bullets with text*/
+  list-style-position: inside;
+}
+
+ul li:before {
+  /* custom ASCII bullets */
+  /* https://www.artishock.net/coding/css-list-styling-using-ascii-special-characters/ */
+	content: "\00BB \0020";
 }
 
 

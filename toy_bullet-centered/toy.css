@@ -1,0 +1,13 @@
+main {
+  background: blue;
+  height: 500px;
+  width: 500px;
+}
+
+.josh {
+  text-align: center;
+}
+
+.josh li {
+  list-style-position: inside;
+}
