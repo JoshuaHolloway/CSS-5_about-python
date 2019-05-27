@@ -8,10 +8,10 @@
   width: 1000px;
 
   /* DEBUG */
-  /* background: red;
+  background: red;
   background-image: url('python-BSD.png');
   background-size: contain;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 /* -------------------------------------------------------------------------- */
 /* top-most row */
@@ -112,6 +112,44 @@ nav {
   /* DEBUG */
   background: yellow;
   opacity: 0.5;
+
+  /* TODO */
+  /* padding: 0px; */
+
+    display: block-inline;
+
+    padding-top: 20px;
+}
+
+/* links in nav-bar */
+
+nav a:nth-of-type(1) { margin-left: 139px; } /* 1st-link */
+nav a:nth-of-type(2) { margin-left: 42px; }  /* All links after 1st */
+nav a:nth-of-type(3) { margin-left: 42px; }
+nav a:nth-of-type(4) { margin-left: 42px; }
+nav a:nth-of-type(5) { margin-left: 42px; }
+nav a:nth-of-type(6) { margin-left: 42px; }
+
+nav a {
+  /* remove underlines */
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 22px;
+  color: white;
+
+  height: 25px;
+  width: 25px;
+
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+  /* DEBUG */
+  background: red;
+  opacity: 0.5;
+
+  display: block-inline;
 }
 /* -------------------------------------------------------------------------- */
 /* third row */
