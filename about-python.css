@@ -180,7 +180,7 @@ main {
 
 #main__left-box {
   height: 305px;
-  width: 300px;
+  width: 260px;
 
   /* DEBUG */
   background: blue;
@@ -204,7 +204,7 @@ main {
   list-style-position: inside;
 }
 
-ul li:before {
+#main__left-box__bullets li:before {
   /* custom ASCII bullets */
   /* https://www.artishock.net/coding/css-list-styling-using-ascii-special-characters/ */
 	content: "\00BB \0020";
