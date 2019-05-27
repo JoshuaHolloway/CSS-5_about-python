@@ -9,17 +9,17 @@
 
   /* DEBUG */
   /* background: red; */
-  background-image: url('python-BSD.png');
+  /* background-image: url('python-BSD.png');
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 /* -------------------------------------------------------------------------- */
 /* top-most row */
 header {
+  background: #245076;
   height: 120px;
 
   /* DEBUG */
-  background: #245076;
   /* opacity: 0.5; */
 }
 
@@ -107,7 +107,8 @@ header div {
 /* -------------------------------------------------------------------------- */
 /* second row - navication bar*/
 nav {
-  height: 60px;
+    background: #245076;
+    height: 60px;
 
   /* DEBUG */
   /* background: yellow;
@@ -124,7 +125,10 @@ nav {
 }
 
 #nav-bar {
-  background: blue;
+
+  /* TODO: Add shadowing */
+
+  background: #487FAD;
   height: 28px;
   width: 878px;
 
@@ -138,6 +142,8 @@ nav {
   /* DEBUG */
   /* opacity: 0.5; */
 }
+
+
 
 /* links in nav-bar */
 #nav-bar a:nth-of-type(1) { margin-left: 56px; } /* 1st-link */
@@ -171,6 +177,7 @@ nav {
 /* -------------------------------------------------------------------------- */
 /* third row */
 main {
+  background: #245076;
   height: 305px;
 
   /* DEBUG */
@@ -183,14 +190,16 @@ main {
   width: 260px;
 
   /* DEBUG */
-  background: blue;
-  opacity: 0.7;
+  /* background: blue;
+  opacity: 0.7; */
 
   display: inline-block;
   vertical-align: top;
 
   padding-top: 21px;
   padding-left: 39px;
+
+
 }
 
 #main__left-box__bullets {
@@ -202,12 +211,17 @@ main {
 
   /* center-bullets with text*/
   list-style-position: inside;
+
+  font-size: 24px;
+  font-family: sans-serif;
+  color: white;
 }
 
 #main__left-box__bullets li:before {
   /* custom ASCII bullets */
   /* https://www.artishock.net/coding/css-list-styling-using-ascii-special-characters/ */
 	content: "\00BB \0020";
+  color: yellow;
 }
 
 
