@@ -175,7 +175,7 @@ main {
 
   /* DEBUG */
   background: red;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 #main__left-box {
@@ -190,9 +190,16 @@ main {
   vertical-align: top;
 }
 
+#main__left-box__bullets {
+  list-style-type: disc;
+}
+
+
+
+
 #main__right-box {
   height: 305px;
-  width: 696px;
+  /* width: 696px; */
 
   /* DEBUG */
   /* background: yellow; */
@@ -202,10 +209,15 @@ main {
   vertical-align: top;
 }
 
+#main__right-box__bottom {
+  /* push list to left */
+  padding-right: 32px;
+}
+
 /* top div inside right-box */
 #main__right-box div:nth-of-type(1) {
 
-  height: 92px;
+  height: 82px;
   width: 696px;
 
   /* DEBUG */
@@ -222,6 +234,30 @@ main {
     font-family: sans-serif;
     color: white;
     text-align: center;
+}
+
+/* select first 5-elements of list */
+.zen-principles {
+  text-align: center;
+  font-family: sans-serif;
+  color: yellow;
+  font-style: italic;
+  font-size: 22px;
+  list-style-type: none;
+
+  /* seperate each bullet point vertically */
+  margin-top: 7px;
+}
+
+/* select last element of list */
+#zen-of-python {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 18px;
+  list-style-type: none;
+
+  margin-top: 11px;
 }
 /* -------------------------------------------------------------------------- */
 
