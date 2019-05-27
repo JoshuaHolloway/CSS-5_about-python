@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   border: 0;
+
+  font-family: sans-serif;
 }
 #main-container {
   height: 832px;
@@ -9,9 +11,9 @@
 
   /* DEBUG */
   /* background: red; */
-  background-image: url('python-BSD.png');
+  /* background-image: url('python-BSD.png');
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 /* -------------------------------------------------------------------------- */
 /* top-most row */
@@ -46,7 +48,6 @@ header div {
   height: 28px;
 
   display: inline-block;
-  font-family: sans-serif;
   color: white;
   font-size: 14px;
 
@@ -154,7 +155,6 @@ nav {
 #nav-bar a {
   /* remove underlines */
   text-decoration: none;
-  font-family: sans-serif;
   font-size: 22px;
   color: white;
 
@@ -195,8 +195,6 @@ main {
 
   padding-top: 21px;
   padding-left: 39px;
-
-
 }
 
 #main__left-box__bullets {
@@ -210,7 +208,6 @@ main {
   list-style-position: inside;
 
   font-size: 24px;
-  font-family: sans-serif;
 }
 
 #main__left-box__bullets li:before {
@@ -254,7 +251,6 @@ main {
     margin-right: 65px;
     margin-left: 29px;
     font-size: 14px;
-    font-family: sans-serif;
     color: white;
     text-align: center;
 }
@@ -262,7 +258,6 @@ main {
 /* select first 5-elements of list */
 .zen-principles {
   text-align: center;
-  font-family: sans-serif;
   color: yellow;
   font-style: italic;
   font-size: 22px;
@@ -275,7 +270,6 @@ main {
 /* select last element of list */
 #zen-of-python {
   text-align: center;
-  font-family: sans-serif;
   color: white;
   font-size: 18px;
   list-style-type: none;
@@ -285,7 +279,7 @@ main {
 /* -------------------------------------------------------------------------- */
 /* second main-row (white background) */
 #main-2 {
-  background: red;
+  background: white;
   height: 230px;
 
   /* DEBUG */
@@ -296,29 +290,75 @@ main {
 }
 
 #main-2__col-1 {
-  background: green;
-
+  /* background: green; */
   height: inherit;
 
   display: inline-block;
   vertical-align: top;
+
+  padding-top: 3px;
+  padding-left: 33px;
+
+  text-align:center;
+}
+
+#main-2__col-1 h3{
+  font-size: 16px;
+}
+
+#main-2__col-1 p{
+  font-size: 14px;
+
+  margin-top: 4px;
+  margin-left:  97px;
+  margin-right: 90px;
 }
 
 #main-2__col-2 {
-  background: yellow;
+  /* background: yellow; */
   height: inherit;
 
   display: inline-block;
   vertical-align: top;
 }
 
-/* select sibling divs inside #main-2*/
-#main-2 div + div {
-  width: 525px;
+/* both box widths */
+#main-2__col-1, #main-2__col-2{
+  width: 480px;
+}
+
+.josh {
+  text-align: center;
+
+  margin-top: 3px;
+  margin-right: 88px;
+
+  font-size: 14px;
+}
+
+/* push each bullet to the right */
+.josh li {
+  /* want bullets to be alinged in a col */
+  /* list-style-position: inside; */
+
+  margin-left: 145px;
+
+  list-style: square;
+
 }
 /* -------------------------------------------------------------------------- */
+#blue-bar_ {
+  background: red;
+  height: 5px;
+  width: 400px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 77px;
 
-
+  display: inline-block;
+}
+/* -------------------------------------------------------------------------- */
 
 
 
